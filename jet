@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jeten.net - Discover the Jeten Drone 100, a heavy-lift UAV designed for industrial applications.">
+  <title>Jeten.net | Heavy-Lift Drones</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #0073e6;
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+    }
+    .hero {
+      background: url('drone-hero.jpg') no-repeat center center/cover;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+    .content {
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .cta-button {
+      display: inline-block;
+      background: #0073e6;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+      background: #0059b3;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+    .gallery img {
+      width: 100%;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+    @media (max-width: 768px) {
+      .hero {
+        height: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Jeten</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/drones/">Drones</a>
+      <a href="/about/">About Us</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Jeten Drone 100</h1>
+    <p>Advanced Heavy-Lift Technology for Industrial Applications</p>
+    <a href="#specs" class="cta-button">Learn More</a>
+  </div>
+
+  <!-- Content Section -->
+  <div class="content">
+    <section id="about">
+      <h2>About the Jeten Drone 100</h2>
+      <p>The Jeten Drone 100 is designed for heavy-lift operations, offering unparalleled performance and reliability.</p>
+    </section>
+
+    <section id="features">
+      <h3>Key Features</h3>
+      <ul>
+        <li>Payload Capacity: 100 kg</li>
+        <li>Flight Time: 50 minutes</li>
+        <li>Range: 60 km</li>
+        <li>Max Speed: 120 km/h</li>
+      </ul>
+    </section>
+
+    <section id="specs">
+      <h3>Technical Specifications</h3>
+      <table>
+        <tr><th>Payload</th><td>100 kg</td></tr>
+        <tr><th>Flight Time</th><td>50 minutes</td></tr>
+        <tr><th>Range</th><td>60 km</td></tr>
+        <tr><th>Max Speed</th><td>120 km/h</td></tr>
+      </table>
+    </section>
+
+    <section id="applications">
+      <h3>Applications</h3>
+      <p>The Jeten Drone 100 is ideal for various industries:</p>
+      <ul>
+        <li>Logistics and Delivery</li>
+        <li>Search and Rescue Operations</li>
+        <li>Construction and Surveying</li>
+        <li>Film and Photography</li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h3>Gallery</h3>
+      <div class="gallery">
+        <img src="drone-in-action.jpg" alt="Jeten Drone 100 in Action">
+        <img src="drone-closeup.jpg" alt="Close-up of Jeten Drone 100">
+      </div>
+    </section>
+
+    <section id="contact">
+      <h3>Request a Quote</h3>
+      <a href="/contact/" class="cta-button">Contact Us</a>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Jeten. All rights reserved.</p>
+  </footer>
+</body>
+</html>
